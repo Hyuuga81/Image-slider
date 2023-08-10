@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- image slider start -->
+    <div class="slider">
+        <div class="slides">
+            <!-- radio buttons start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons end -->
+
+            <!-- slide images start -->
+            <div class="slide first">
+                <img src="./img/clem-onojeghuo-zlABb6Gke24-unsplash.jpg" alt="1">
+            </div>
+            <div class="slide">
+                <img src="./img/drew-coffman-jUOaONoXJQk-unsplash.jpg" alt="2">
+            </div>
+            <div class="slide">
+                <img src="./img/michal-parzuchowski-ItaV89TNkks-unsplash.jpg" alt="3">
+            </div>
+            <div class="slide">
+                <img src="./img/nathan-dumlao-6VhPY27jdps-unsplash.jpg" alt="4">
+            </div>
+            <!-- slide images end -->
+
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- automatic navigation end -->
+
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+        </div>
+    </div>
+    <!-- image slider end -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
